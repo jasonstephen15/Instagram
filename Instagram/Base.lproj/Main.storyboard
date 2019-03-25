@@ -201,11 +201,23 @@
                         <viewLayoutGuide key="safeArea" id="0bQ-af-u4R"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZYH-Y9-lNt">
+                        <nil key="title"/>
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="w4g-jk-3Uk">
                             <connections>
                                 <action selector="onLogoutButton:" destination="r3L-lL-dlw" id="27j-ws-7gX"/>
                             </connections>
                         </barButtonItem>
+                        <view key="titleView" contentMode="scaleToFill" id="G1z-fR-Xus">
+                            <rect key="frame" x="138.5" y="22" width="98" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="V87-ne-zs5">
+                                    <rect key="frame" x="-140" y="-18" width="377" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="hjQ-i6-lzJ">
                             <connections>
                                 <segue destination="nLA-C8-6On" kind="presentation" id="U1X-4F-hZU"/>
@@ -228,7 +240,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n09-nJ-yyj">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n09-nJ-yyj">
                                 <rect key="frame" x="16" y="329" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -254,6 +266,7 @@
                         <constraints>
                             <constraint firstItem="yVR-ft-ALh" firstAttribute="top" secondItem="n09-nJ-yyj" secondAttribute="bottom" constant="8" symbolic="YES" id="4ni-Rz-yWE"/>
                             <constraint firstItem="yVR-ft-ALh" firstAttribute="leading" secondItem="n09-nJ-yyj" secondAttribute="leading" id="6yl-Xa-L3n"/>
+                            <constraint firstItem="8Ge-bn-74e" firstAttribute="trailing" secondItem="n09-nJ-yyj" secondAttribute="trailing" constant="16" id="Oas-pN-I5X"/>
                             <constraint firstItem="8Ge-bn-74e" firstAttribute="bottom" secondItem="yVR-ft-ALh" secondAttribute="bottom" constant="270" id="f2c-WA-rQ9"/>
                             <constraint firstItem="yVR-ft-ALh" firstAttribute="leading" secondItem="PRM-bg-4yV" secondAttribute="leadingMargin" id="jzG-za-hPp"/>
                             <constraint firstAttribute="trailing" secondItem="yVR-ft-ALh" secondAttribute="trailing" id="ubx-RS-FaJ"/>
