@@ -10,6 +10,11 @@ import UIKit
 
 class CommentCell: UITableViewCell {
 
+    @IBOutlet weak var nameField: UILabel!
+
+    @IBOutlet weak var commentField: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

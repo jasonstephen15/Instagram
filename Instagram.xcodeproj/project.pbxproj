@@ -19,6 +19,7 @@
 		96F5EE80222DFA2E00DE3123 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5EE7F222DFA2E00DE3123 /* FeedViewController.swift */; };
 		96F5EE82223577A200DE3123 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5EE81223577A200DE3123 /* CameraViewController.swift */; };
 		96F5EE842235F06100DE3123 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5EE832235F06100DE3123 /* PostCell.swift */; };
+		96FEFA48224456AB00A58092 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEFA47224456AB00A58092 /* CommentCell.swift */; };
 		C3444166F2DE44414C63A13B /* Pods_InstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A4F9C8A552D33BB350DA0A /* Pods_InstagramTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		96F5EE7F222DFA2E00DE3123 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		96F5EE81223577A200DE3123 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		96F5EE832235F06100DE3123 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		96FEFA47224456AB00A58092 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		AAE2E189161638F30ED5EB35 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		ACA2748B18BEFB6439BD65B4 /* Pods_InstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 				96F5EE7F222DFA2E00DE3123 /* FeedViewController.swift */,
 				96F5EE81223577A200DE3123 /* CameraViewController.swift */,
 				96F5EE832235F06100DE3123 /* PostCell.swift */,
+				96FEFA47224456AB00A58092 /* CommentCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -326,6 +330,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				96F5EE80222DFA2E00DE3123 /* FeedViewController.swift in Sources */,
 				96F5EE50222DF3D300DE3123 /* AppDelegate.swift in Sources */,
 				96F5EE842235F06100DE3123 /* PostCell.swift in Sources */,
+				96FEFA48224456AB00A58092 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XBS6BK2T;
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -605,6 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XBS6BK2T;
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
