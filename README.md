@@ -2,6 +2,9 @@
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
 
+## Video Walkthrough
+<img src='gif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## User Stories
 
 - [x] User stays logged in across restarts. 
@@ -14,10 +17,6 @@ This is an Instagram clone with a custom Parse backend that allows a user to pos
 - [x] User can take a photo, add a caption, and post it to the server.  
 - [x] User can view the last 20 posts.  
 
-## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='gif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+Here's an extra walkthrough of implemented user stories:
 <img src='gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
