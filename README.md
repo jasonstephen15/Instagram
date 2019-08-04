@@ -17,6 +17,3 @@ This is an Instagram clone with a custom Parse backend that allows a user to pos
 - [x] User can take a photo, add a caption, and post it to the server.  
 - [x] User can view the last 20 posts.  
 
-
-Here's an extra walkthrough of implemented user stories:
-<img src='gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
